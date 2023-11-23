@@ -73,4 +73,3 @@ else:
     )
 
     pulumi.export("stream_analytics_job_name", stream_analytics_job.name)
-    
