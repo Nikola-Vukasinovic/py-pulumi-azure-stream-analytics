@@ -1,0 +1,6 @@
+name: py-pulumi-azure-stream-analytics
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Python Pulumi project to deploy Stream Analytics service in Azure
