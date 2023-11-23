@@ -165,3 +165,5 @@ In the main branch is the most simplified version that relies on "manul" creatio
 Query can be submitted as string or read from .sql file. The latter is preferred way since it gives you ability to track changes and be flexible about it.
 
 Query selects columns from my input data coming from IoT Hub, the data is from simple Modubs device that is sending electrical energy measurements. Output was configured as Table storage to test te ingestion.
+
+Example has been updated with query reading from .sql file.

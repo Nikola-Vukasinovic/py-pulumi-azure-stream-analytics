@@ -6,9 +6,9 @@ from pulumi.inputs import create_iot_hub_input
 from pulumi.outputs import create_table_storage_output
 from pulumi_azure_native import resources, streamanalytics
 
-simple_query = False
+simple_query = True
 
-if (not simple_query):
+if (simple_query):
     location = "West Europe"
 
     query = """
