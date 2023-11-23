@@ -2,6 +2,7 @@ import pulumi
 from pulumi_azure_native import streamanalytics
 from pulumi.stream_analytics import StreamingJob
 
+
 class StreamingJob(pulumi.ComponentResource):
     def __init__(self, resource_name, query, inputs, outputs, **kwargs):
         super().__init__("custom:pulumi:StreamingJob", resource_name, {}, **kwargs)
